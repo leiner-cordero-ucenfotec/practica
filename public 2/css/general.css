@@ -1,0 +1,62 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 1vw;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+form div {
+    margin: 0 0 20px 0;
+}
+
+form label {
+    display: inline-block;
+    font-size: 18px;
+    width: 150px;
+}
+
+form input,
+form select {
+    display: inline-block;
+    height: 20px;
+    min-width: 100px;
+    width: 180px;
+}
+
+form select {
+    height: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 185px;
+    background: #fff;
+}
+
+form button {
+    background: #000;
+    box-sizing: border-box;
+    color: #EFAC43;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+}
+
+form button:hover {
+    background: #1A1A1A;
+    cursor: pointer;
+}
+
+.input-error {
+    border: 2px solid #ee5253;
+}
+
+#user-photo {
+    background-image: url('../img/user-placeholder.png');
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}

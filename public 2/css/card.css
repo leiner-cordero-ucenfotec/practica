@@ -1,0 +1,27 @@
+.card {
+    border: 2px solid #000;
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 1% 30px 0;
+}
+
+.card .img_container {
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/starmie.png');
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.card button {
+    background: #000;
+    color: #ff9f43;
+    padding: 4%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
